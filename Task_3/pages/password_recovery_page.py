@@ -6,8 +6,6 @@ from locators.password_recovery_locators import PasswordRecoveryLocators
 
 class PasswordRecoveryPage(BasePage):
     # Page Object страницы восстановления пароля.
-    
-    def __init__(self, driver):
     def __init__(self, driver):
         super().__init__(driver)
         self.locators = PasswordRecoveryLocators()
