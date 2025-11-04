@@ -1,8 +1,8 @@
-# Инструкция по сдаче дипломного проекта
+# Инструкция по сдаче
 
-## 📤 Шаг 1: Push изменений в GitHub
+## Шаг 1: Push изменений в GitHub
 
-Выполните следующие команды для отправки всех изменений:
+Выполните следующие команды:
 
 ```bash
 cd /Users/Andrei_Antamoshin/MidProject/Diplom
@@ -16,22 +16,22 @@ git push origin develop2
 git push origin develop3
 ```
 
-## 🔀 Шаг 2: Создание Pull Requests
+## Шаг 2: Создание Pull Requests
 
 Перейдите на https://github.com/Julia13179/Diplom и создайте три Pull Request:
 
 ### PR 1: Task_1 (Unit тесты)
 1. Нажмите "New Pull Request"
-2. Base: `main` ← Compare: `develop`
+2. Base: main <- Compare: develop
 3. Название: "Задание 1: Unit тесты"
 4. Описание:
    ```
    ## Задание 1: Unit тесты
    
-   - ✅ 53 теста, все проходят
-   - ✅ Покрытие кода: 100%
-   - ✅ Используются моки и параметризация
-   - ✅ Отчет coverage: Task_1/htmlcov/index.html
+   - 53 теста, все проходят
+   - Покрытие кода: 100%
+   - Используются моки и параметризация
+   - Отчет coverage: Task_1/htmlcov/index.html
    
    Тесты покрывают классы: Bun, Burger, Ingredient, Database
    ```
@@ -40,16 +40,16 @@ git push origin develop3
 
 ### PR 2: Task_2 (API тесты)
 1. Нажмите "New Pull Request"
-2. Base: `main` ← Compare: `develop2`
+2. Base: main <- Compare: develop2
 3. Название: "Задание 2: API тесты"
 4. Описание:
    ```
    ## Задание 2: API тесты
    
-   - ✅ 27 тестов, все проходят
-   - ✅ Все эндпоинты протестированы
-   - ✅ Тесты независимы
-   - ✅ Allure отчет: Task_2/allure-report/index.html
+   - 27 тестов, все проходят
+   - Все эндпоинты протестированы
+   - Тесты независимы
+   - Allure отчет: Task_2/allure-report/index.html
    
    Тесты покрывают:
    - Создание пользователя
@@ -63,16 +63,16 @@ git push origin develop3
 
 ### PR 3: Task_3 (Веб-тесты)
 1. Нажмите "New Pull Request"
-2. Base: `main` ← Compare: `develop3`
+2. Base: main <- Compare: develop3
 3. Название: "Задание 3: Веб-тесты"
 4. Описание:
    ```
    ## Задание 3: Веб-тесты
    
-   - ✅ 34 теста (17 × 2 браузера), все проходят
-   - ✅ Page Object Model реализован
-   - ✅ Кроссбраузерное тестирование (Chrome, Firefox)
-   - ✅ Allure отчет: Task_3/allure-report/index.html
+   - 34 теста (17 × 2 браузера), все проходят
+   - Page Object Model реализован
+   - Кроссбраузерное тестирование (Chrome, Firefox)
+   - Allure отчет: Task_3/allure-report/index.html
    
    Тесты покрывают:
    - Восстановление пароля
@@ -83,7 +83,7 @@ git push origin develop3
 5. Добавьте скриншот Allure отчета в комментарии
 6. Создайте PR
 
-## ✅ Шаг 3: Проверка перед сдачей
+## Шаг 3: Проверка перед сдачей
 
 Убедитесь что:
 - [ ] Все три PR созданы
@@ -92,14 +92,14 @@ git push origin develop3
 - [ ] Все отчеты доступны в репозитории
 - [ ] Код не содержит ошибок
 
-## 📋 Чеклист требований
+## Чеклист требований
 
 ### Task_1
 - [x] Тесты в папке tests/
 - [x] Используются моки
 - [x] Используется параметризация
 - [x] Тесты независимы
-- [x] Покрытие ≥ 70% (100%)
+- [x] Покрытие >= 70% (100%)
 - [x] Отчет coverage добавлен в PR
 
 ### Task_2
@@ -119,7 +119,7 @@ git push origin develop3
 - [x] Тесты независимы
 - [x] Allure отчет добавлен в PR
 
-## 🔗 Ссылки
+## Ссылки
 
 - Репозиторий: https://github.com/Julia13179/Diplom
 - PR 1: https://github.com/Julia13179/Diplom/pull/...
@@ -127,4 +127,3 @@ git push origin develop3
 - PR 3: https://github.com/Julia13179/Diplom/pull/...
 
 После создания PR добавьте ссылки в этот файл.
-
